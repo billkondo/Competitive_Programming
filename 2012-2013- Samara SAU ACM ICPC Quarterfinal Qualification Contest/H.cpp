@@ -33,6 +33,5 @@ int main()
 	compute();
 	if(solve()) printf("Constantine\n");
 	else printf("Mike\n");
-	
 	return 0;
 }
