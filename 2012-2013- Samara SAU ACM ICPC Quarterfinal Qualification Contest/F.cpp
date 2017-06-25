@@ -35,5 +35,7 @@ int main()
 		ans += h[p] - 1;
 	}
 	printf("%lld\n",ans);
+	
+	
 	return 0;
 }
