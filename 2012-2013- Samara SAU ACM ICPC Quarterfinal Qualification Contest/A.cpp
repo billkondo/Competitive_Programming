@@ -2,6 +2,7 @@
 using namespace std;
 
 #define debug(args...) fprintf(stderr,args)
+
 const int maxn = 2500 + 10;
 
 int n, m, q;
