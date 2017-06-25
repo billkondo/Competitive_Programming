@@ -46,5 +46,6 @@ int main()
 	cin >> s;
 	if(solve()) cout << s << '\n';
 	else cout << "IMPOSSIBLE\n";
+	
 	return 0;
 }
