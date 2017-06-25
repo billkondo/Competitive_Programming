@@ -88,5 +88,6 @@ int main()
 			l[1][cur] = pos;
 		}
 	}
+	
 	return 0;
 }
