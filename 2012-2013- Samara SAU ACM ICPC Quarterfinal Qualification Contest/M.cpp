@@ -27,5 +27,6 @@ int main()
 	for(int i = 1; i <= n; ++i) cin >> c[i], pos[c[i]].insert(i);
 	memset(dp,-1,sizeof(dp));
 	cout << f(1) << '\n';
+	
 	return 0;
 }
