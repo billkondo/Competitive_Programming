@@ -51,7 +51,6 @@ int main()
 	compute();
 
 	scanf("%d",&q);
-
 	while(q--)
 	{
 		int r1,c1,r2,c2;
