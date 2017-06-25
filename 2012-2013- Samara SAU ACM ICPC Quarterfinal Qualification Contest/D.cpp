@@ -46,5 +46,6 @@ int main()
 	cin >> k;
 	gen();
 	cout << solve() << '\n';
+	
 	return 0;
 }
