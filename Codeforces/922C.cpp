@@ -9,7 +9,7 @@ bool solve() {
     if(k == 1) return true;
     if(k >= n) return false;
     set<ll> S;
-    for(int i = 1; i <= k; ++i) {
+    for(ll i = 1; i <= k; ++i) {
 	if(S.find(n % i) != S.end()) return false;
 	S.insert(n % i);
     }
