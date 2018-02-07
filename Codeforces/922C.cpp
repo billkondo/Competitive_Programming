@@ -6,8 +6,6 @@ typedef long long ll;
 ll n, k;
 
 bool solve() {
-    if(k == 1) return true;
-    if(k >= n) return false;
     set<ll> S;
     for(ll i = 1; i <= k; ++i) {
 	if(S.find(n % i) != S.end()) return false;
